@@ -1,0 +1,768 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\service\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:service\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\service\\instructorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:service\\instructorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\RoleDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\RoleDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\RoleAddDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\RoleAddDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\RegisterUserRoleDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\RegisterUserRoleDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\UserAddDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UserAddDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\UserDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UserDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\UserLoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UserLoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\UserWithTokenDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UserWithTokenDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\listinstructors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\listinstructors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\editcourse.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\editcourse.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\editcategory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\editcategory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\addcourse .razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\addcourse .razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\listenrollment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\listenrollment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\listcourse.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\listcourse.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\listcategory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\listcategory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\addenrollment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\addenrollment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\addcategory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\addcategory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 42,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterUserRoleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\RegisterUserRoleDTO.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterUserRoleDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\RegisterUserRoleDTO.cs",
+              "RelativeToolTip": "Models\\RegisterUserRoleDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:30:58.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleAddDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\RoleAddDTO.cs",
+              "RelativeDocumentMoniker": "Models\\RoleAddDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\RoleAddDTO.cs",
+              "RelativeToolTip": "Models\\RoleAddDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:29:01.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "Models\\RoleDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\RoleDTO.cs",
+              "RelativeToolTip": "Models\\RoleDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:28:43.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserWithTokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\UserWithTokenDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserWithTokenDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\UserWithTokenDTO.cs",
+              "RelativeToolTip": "Models\\UserWithTokenDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:22:17.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\UserLoginDTO.cs",
+              "RelativeToolTip": "Models\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:21:48.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserAddDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\UserAddDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserAddDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\UserAddDTO.cs",
+              "RelativeToolTip": "Models\\UserAddDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:20:15.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\Models\\UserDTO.cs",
+              "RelativeToolTip": "Models\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:20:03.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Register.razor",
+              "RelativeToolTip": "Pages\\Register.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T20:07:18.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T20:06:58.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T20:00:02.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:57.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\NavMenu.razor.css",
+              "RelativeToolTip": "Shared\\NavMenu.razor.css",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-13T19:59:54.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "favicon.png - PNG [32x32, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
+              "RelativeToolTip": "wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-13T19:59:48.967Z",
+              "EditorCaption": " - PNG [32x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:46.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T19:59:44.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T19:59:43.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Routes.razor",
+              "RelativeDocumentMoniker": "Routes.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Routes.razor",
+              "RelativeToolTip": "Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:32.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:30.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "Models\\Instructor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Instructor.cs",
+              "RelativeToolTip": "Models\\Instructor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:59:29.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:59:28.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:59:27.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:59:26.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Host.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\_Host.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\_Host.cshtml.cs",
+              "RelativeToolTip": "Pages\\_Host.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:59:15.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:12.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Weather.razor",
+              "RelativeToolTip": "Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:12.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListInstructors.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListInstructors.razor",
+              "RelativeDocumentMoniker": "Pages\\ListInstructors.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListInstructors.razor",
+              "RelativeToolTip": "Pages\\ListInstructors.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:10.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ListEnrollment.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListEnrollment.razor",
+              "RelativeDocumentMoniker": "Pages\\ListEnrollment.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListEnrollment.razor",
+              "RelativeToolTip": "Pages\\ListEnrollment.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:09.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ListCourse.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListCourse.razor",
+              "RelativeDocumentMoniker": "Pages\\ListCourse.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListCourse.razor",
+              "RelativeToolTip": "Pages\\ListCourse.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:08.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ListCategory.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListCategory.razor",
+              "RelativeDocumentMoniker": "Pages\\ListCategory.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\ListCategory.razor",
+              "RelativeToolTip": "Pages\\ListCategory.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:07.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:07.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Error.razor",
+              "RelativeToolTip": "Pages\\Error.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:05.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditCourse.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\EditCourse.razor",
+              "RelativeDocumentMoniker": "Pages\\EditCourse.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\EditCourse.razor",
+              "RelativeToolTip": "Pages\\EditCourse.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:04.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditCategory.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\EditCategory.razor",
+              "RelativeDocumentMoniker": "Pages\\EditCategory.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\EditCategory.razor",
+              "RelativeToolTip": "Pages\\EditCategory.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:04.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddEnrollment.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\AddEnrollment.razor",
+              "RelativeDocumentMoniker": "Pages\\AddEnrollment.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\AddEnrollment.razor",
+              "RelativeToolTip": "Pages\\AddEnrollment.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:59:01.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddCourse .razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\AddCourse .razor",
+              "RelativeDocumentMoniker": "Pages\\AddCourse .razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\AddCourse .razor",
+              "RelativeToolTip": "Pages\\AddCourse .razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:58:57.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddCategory.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\AddCategory.razor",
+              "RelativeDocumentMoniker": "Pages\\AddCategory.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\AddCategory.razor",
+              "RelativeToolTip": "Pages\\AddCategory.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:58:55.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\CategoryService.cs",
+              "RelativeToolTip": "Service\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:21.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "Service\\EnrollmentService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\EnrollmentService.cs",
+              "RelativeToolTip": "Service\\EnrollmentService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:20.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\CourseService.cs",
+              "RelativeDocumentMoniker": "Service\\CourseService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\CourseService.cs",
+              "RelativeToolTip": "Service\\CourseService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:18.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\InstructorService.cs",
+              "RelativeDocumentMoniker": "Service\\InstructorService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\InstructorService.cs",
+              "RelativeToolTip": "Service\\InstructorService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:12.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "Service\\LoginService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\LoginService.cs",
+              "RelativeToolTip": "Service\\LoginService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:11.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:10.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:56:45.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+﻿@page "/add-course"
+@using BlazeUTS.Models
+@using BlazeUTS.Service
+@inject CourseService CourseService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+
+<PageTitle>Add Course</PageTitle>
+
+<h3>Add New Course</h3>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <EditForm Model="newCourse" OnValidSubmit="HandleValidSubmit" OnInvalidSubmit="HandleInvalidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-3">
+                <label for="courseName" class="form-label">Course Name</label>
+                <InputText id="courseName" class="form-control" @bind-Value="newCourse.Name" />
+                <ValidationMessage For="() => newCourse.Name" />
+            </div>
+
+            <div class="mb-3">
+                <label for="courseImageName" class="form-label">Image Name<b>(image-url)</b></label>
+                <InputText id="courseImageName" class="form-control" @bind-Value="newCourse.ImageName" />
+                <ValidationMessage For="() => newCourse.ImageName" />
+            </div>
+
+            <div class="mb-3">
+                <label for="courseDuration" class="form-label">Duration</label>
+                <InputNumber id="courseDuration" class="form-control" @bind-Value="newCourse.Duration" />
+                <ValidationMessage For="() => newCourse.Duration" />
+            </div>
+
+            <div class="mb-3">
+                <label for="courseDescription" class="form-label">Description</label>
+                <InputTextArea id="courseDescription" class="form-control" @bind-Value="newCourse.Description" />
+                <ValidationMessage For="() => newCourse.Description" />
+            </div>
+
+            <div class="mb-3">
+                <label for="categoryId" class="form-label">Category</label>
+                <InputSelect id="categoryId" class="form-select" @bind-Value="newCourse.CategoryId">
+                    <option value="">-- Select a Category --</option>
+                    @foreach (var category in categories)
+                    {
+                        <option value="@category.CategoryId">@category.Name</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => newCourse.CategoryId" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+        </EditForm>
+    </div>
+</div>
+
+@if (showNotification)
+{
+    <div class="alert alert-@notificationType d-flex align-items-center mt-2" role="alert">
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Notification:">
+            <use xlink:href="#@iconType" />
+        </svg>
+        <div>
+            @notificationMessage
+        </div>
+    </div>
+}
+
+@code {
+    private Course newCourse = new Course();
+    private List<Category> categories = new List<Category>();
+    private string notificationMessage = string.Empty; // Pesan notifikasi
+    private bool showNotification; // Menentukan apakah notifikasi ditampilkan
+    private string notificationType = "danger"; // Jenis notifikasi (default: danger)
+    private string iconType = "exclamation-triangle-fill"; // Ikon notifikasi (default: error icon)
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await CourseService.AddCourseAsync(newCourse); // Menambahkan kategori baru menggunakan service
+            notificationMessage = "Category added successfully!"; // Pesan sukses
+            notificationType = "success"; // Jenis notifikasi sukses
+            iconType = "check-circle-fill"; // Ikon sukses
+            showNotification = true;
+
+            // Redirect setelah beberapa detik
+            await Task.Delay(2000);
+            NavigationManager.NavigateTo("/course");
+        }
+        catch (Exception ex)
+        {
+            notificationMessage = $"Error adding category: {ex.Message}"; // Pesan error
+            notificationType = "danger"; // Jenis notifikasi gagal
+            iconType = "exclamation-triangle-fill"; // Ikon gagal
+            showNotification = true;
+        }
+    }
+
+    private async Task HandleInvalidSubmit()
+    {
+        notificationMessage = "Please fill in all required fields!"; // Pesan untuk input tidak valid
+        notificationType = "danger"; // Jenis notifikasi gagal
+        iconType = "exclamation-triangle-fill"; // Ikon gagal
+        showNotification = true;
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/course"); // Mengarahkan kembali ke halaman kategori
+    }
+}

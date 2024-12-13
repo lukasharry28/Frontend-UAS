@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\blazeuts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:blazeuts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\blazeuts.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:blazeuts.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUAS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUAS.csproj|solutionrelative:routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUAS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUAS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUAS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUAS.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|c:\\users\\asus\\source\\repos\\lukasharry28\\frontend-uas\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179BC7E-AFE9-4BF2-86CB-777619653652}|BlazeUTS.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlazeUTS.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\BlazeUTS.csproj",
+              "RelativeDocumentMoniker": "BlazeUTS.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\BlazeUTS.csproj",
+              "RelativeToolTip": "BlazeUTS.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T19:43:33.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlazeUTS",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\BlazeUTS.csproj",
+              "RelativeDocumentMoniker": "BlazeUTS.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Source\\Repos\\lukasharry28\\Frontend-UAS\\BlazeUTS.csproj",
+              "RelativeToolTip": "BlazeUTS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T19:45:19.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:44:11.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Routes.razor",
+              "RelativeDocumentMoniker": "Routes.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Routes.razor",
+              "RelativeToolTip": "Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:44:09.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:44:05.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:42:59.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Error.razor",
+              "RelativeToolTip": "Pages\\Error.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:42:55.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:41:32.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:41:26.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

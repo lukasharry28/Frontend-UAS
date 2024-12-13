@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazeUTS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazeUTS.f1ee99dqhz.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\image\\default-image.png",
+      "PackagePath": "staticwebassets\\image\\default-image.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazeUTS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazeUTS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazeUTS.props",
+      "PackagePath": "build\\BlazeUTS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazeUTS.props",
+      "PackagePath": "buildMultiTargeting\\BlazeUTS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazeUTS.props",
+      "PackagePath": "buildTransitive\\BlazeUTS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

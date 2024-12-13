@@ -1,0 +1,78 @@
+﻿@page "/instructors"
+@using BlazeUTS.Models
+@using BlazeUTS.Service
+@inject InstructorService InstructorService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+
+<PageTitle>Instructor</PageTitle>
+
+<h3>Instructors</h3>
+
+@if (isLoading)
+{
+    <div>Loading instructors...</div>
+}
+else if (!instructors.Any())
+{
+    <div>No instructors found.</div>
+}
+
+else
+{
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Enrollment Id</th>
+                <th>Username</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var rowNumber = 1;
+            }
+            @foreach (var instructor in instructors)
+            {
+                <tr>
+                    <td>@rowNumber</td>
+                    <td>@instructor.InstructorId</td>
+                    <td>@instructor.UserName</td>
+                    <td>@instructor.FullName</td>
+                </tr>
+                rowNumber++;
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private List<Instructor> instructors = new List<Instructor>();
+
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            instructors = await InstructorService.GetInstructorAsync();
+            if (instructors == null)
+            {
+                instructors = new List<Instructor>(); // Ensure it’s never null
+                Console.WriteLine("No enrollments returned.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching instructors: {ex.Message}");
+            instructors = new List<Instructor>(); // Initialize empty list if there's an error
+        }
+        finally
+        {
+            isLoading = false; // Stop loading indicator
+        }
+    }
+
+}

@@ -1,0 +1,84 @@
+﻿@page "/add-category"
+@using BlazeUTS.Models
+@using BlazeUTS.Service
+@inject CategoryService CategoryService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+
+<PageTitle>Add Category</PageTitle>
+
+<h3>Add Category</h3>
+
+<EditForm Model="newCategory" OnValidSubmit="HandleValidSubmit" OnInvalidSubmit="HandleInvalidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="categoryName">Category Name:</label>
+        <InputText id="categoryName" class="form-control mt-1" @bind-Value="newCategory.Name" required />
+        <ValidationMessage For="@(() => newCategory.Name)" />
+    </div>
+    <div class="form-group mt-2">
+        <label for="description">Description:</label>
+        <InputText id="description" class="form-control mt-1" @bind-Value="newCategory.Description" required />
+        <ValidationMessage For="@(() => newCategory.Description)" />
+    </div>
+    <button type="submit" class="btn btn-outline-primary mt-2">Submit</button>
+    <button type="button" class="btn btn-outline-danger mt-2" @onclick="GoBack">Cancel</button>
+</EditForm>
+
+@if (showNotification)
+{
+    <div class="alert alert-@notificationType d-flex align-items-center mt-2" role="alert">
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Notification:">
+            <use xlink:href="#@iconType" />
+        </svg>
+        <div>
+            @notificationMessage
+        </div>
+    </div>
+}
+
+@code {
+    private Category newCategory = new(); // Objek kategori baru untuk ditambahkan
+    private string notificationMessage = string.Empty; // Pesan notifikasi
+    private bool showNotification; // Menentukan apakah notifikasi ditampilkan
+    private string notificationType = "danger"; // Jenis notifikasi (default: danger)
+    private string iconType = "exclamation-triangle-fill"; // Ikon notifikasi (default: error icon)
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await CategoryService.AddCategoryAsync(newCategory); // Menambahkan kategori baru menggunakan service
+            notificationMessage = "Category added successfully!"; // Pesan sukses
+            notificationType = "success"; // Jenis notifikasi sukses
+            iconType = "check-circle-fill"; // Ikon sukses
+            showNotification = true;
+
+            // Redirect setelah beberapa detik
+            await Task.Delay(2000);
+            NavigationManager.NavigateTo("/category");
+        }
+        catch (Exception ex)
+        {
+            notificationMessage = $"Error adding category: {ex.Message}"; // Pesan error
+            notificationType = "danger"; // Jenis notifikasi gagal
+            iconType = "exclamation-triangle-fill"; // Ikon gagal
+            showNotification = true;
+        }
+    }
+
+    private void HandleInvalidSubmit()
+    {
+        notificationMessage = "Please fill in all required fields!"; // Pesan untuk input tidak valid
+        notificationType = "danger"; // Jenis notifikasi gagal
+        iconType = "exclamation-triangle-fill"; // Ikon gagal
+        showNotification = true;
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/category"); // Mengarahkan kembali ke halaman kategori
+    }
+}

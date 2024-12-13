@@ -1,0 +1,132 @@
+﻿@page "/edit-course/{CourseId:int}"
+@using BlazeUTS.Models
+@using BlazeUTS.Service
+@inject CourseService CourseService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Edit Course</PageTitle>
+
+<h3>Edit Course</h3>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <EditForm Model="editedCourse" OnValidSubmit="HandleValidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-3">
+                <label for="courseName" class="form-label">Course Name</label>
+                <InputText id="courseName" class="form-control" @bind-Value="editedCourse.Name" />
+                <ValidationMessage For="() => editedCourse.Name" />
+            </div>
+
+            <div class="mb-3">
+                <label for="courseImageName" class="form-label">Image Name<b>(image-url)</b></label>
+                <InputText id="courseImageName" class="form-control" @bind-Value="editedCourse.ImageName" />
+                <ValidationMessage For="() => editedCourse.ImageName" />
+            </div>
+
+            <div class="mb-3">
+                <label for="courseDuration" class="form-label">Duration</label>
+                <InputNumber id="courseDuration" class="form-control" @bind-Value="editedCourse.Duration" />
+                <ValidationMessage For="() => editedCourse.Duration" />
+            </div>
+
+            <div class="mb-3">
+                <label for="courseDescription" class="form-label">Description</label>
+                <InputTextArea id="courseDescription" class="form-control" @bind-Value="editedCourse.Description" />
+                <ValidationMessage For="() => editedCourse.Description" />
+            </div>
+
+            <div class="mb-3">
+                <label for="categoryId" class="form-label">Category</label>
+                <InputSelect id="categoryId" class="form-select" @bind-Value="editedCourse.CategoryId">
+                    <option value="">-- Select a Category --</option>
+                    @foreach (var category in categories)
+                    {
+                        <option value="@category.CategoryId">@category.Name</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => editedCourse.CategoryId" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+        </EditForm>
+    </div>
+</div>
+
+@if (isLoading)
+{
+    <div>Loading Course...</div>
+}
+
+@code {
+    [Parameter]
+    public int CourseId { get; set; } // ID kategori untuk diedit
+    private Course editedCourse = new Course();
+    private List<Category> categories = new List<Category>();
+    private bool isLoading = true; // Status loading data
+    private string notificationMessage = string.Empty; // Pesan notifikasi
+    private bool showNotification; // Menentukan apakah notifikasi ditampilkan
+    private string notificationType = "danger"; // Jenis notifikasi (default: danger)
+    private string iconType = "exclamation-triangle-fill"; // Ikon notifikasi (default: error icon)
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCourse();
+    }
+
+    private async Task LoadCourse()
+    {
+        try
+        {
+            editedCourse = await CourseService.GetCourseByIdAsync(CourseId); // Mendapatkan data kategori dari API
+            isLoading = false;
+        }
+        catch (Exception ex)
+        {
+            notificationMessage = $"Error loading category details: {ex.Message}"; // Pesan error
+            notificationType = "danger"; // Jenis notifikasi gagal
+            iconType = "exclamation-triangle-fill"; // Ikon gagal
+            showNotification = true;
+            isLoading = false;
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await CourseService.UpdateCourseAsync(CourseId, editedCourse); // Memperbarui kategori di API
+            notificationMessage = "Category updated successfully!"; // Pesan sukses
+            notificationType = "success"; // Jenis notifikasi sukses
+            iconType = "check-circle-fill"; // Ikon sukses
+            showNotification = true;
+
+            // Redirect setelah beberapa detik
+            await Task.Delay(2000);
+            NavigationManager.NavigateTo("/course");
+        }
+        catch (Exception ex)
+        {
+            notificationMessage = $"Error updating course: {ex.Message}"; // Pesan error
+            notificationType = "danger"; // Jenis notifikasi gagal
+            iconType = "exclamation-triangle-fill"; // Ikon gagal
+            showNotification = true;
+        }
+    }
+
+    private void HandleInvalidSubmit()
+    {
+        notificationMessage = "Please fill in all required fields!"; // Pesan untuk input tidak valid
+        notificationType = "danger"; // Jenis notifikasi gagal
+        iconType = "exclamation-triangle-fill"; // Ikon gagal
+        showNotification = true;
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/course"); // Mengarahkan kembali ke halaman kategori
+    }
+}

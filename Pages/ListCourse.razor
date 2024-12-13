@@ -1,0 +1,99 @@
+﻿@page "/course"
+@using BlazeUTS.Models
+@using BlazeUTS.Service
+@inject CourseService CourseService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+
+<PageTitle>Course</PageTitle>
+
+<h3>Courses</h3>
+<div class="d-flex align-items-center">
+    <input class="form-control me-2" type="search" aria-label="Search" @bind="searchTerm" placeholder="Search Course..." style="width: 200px;" />
+    <button class="btn btn-outline-dark" @onclick="AddCourse"><i class="bi bi-plus-square"></i> Add Course</button>
+</div>
+
+<div class="row mt-3">
+    @foreach (var course in filteredCourses) // Iterating through filtered courses
+    {
+        <div class="col-sm-3 col-md-3">
+            <div class="card">
+                <img class="card-img-top"
+                     style="width: auto; height: 150px; object-fit: cover;"
+                     src="@(string.IsNullOrEmpty(course.ImageName) || !course.ImageName.StartsWith("http") ? "/image/default-image.png" : course.ImageName)"
+                     alt="@course.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@course.Name</h5>
+                    <p class="card-text">@course.Description</p>
+                    <p class="card-text"><strong>Duration:</strong> @course.Duration hours</p>
+                    <p class="card-text"><strong>Category:</strong> @course.Category?.Name</p>
+                    <button class="btn btn-outline-primary me-2" @onclick="() => EditCourse(course.CourseId)"><i class="bi bi-pencil-square"></i> Edit</button>
+                    <button class="btn btn-outline-danger" @onclick="() => DeleteCourse(course.CourseId)"><i class="bi bi-trash-fill"></i> Delete</button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private List<Course> courses = new List<Course>(); // List to store courses
+    private List<Course> filteredCourses => courses // Filtered courses based on search term
+        .Where(c => string.IsNullOrWhiteSpace(searchTerm) || c.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+        .ToList();
+    private string searchTerm = string.Empty; // Search term input
+
+    protected override async Task OnInitializedAsync() // Initialization method
+    {
+        courses = await CourseService.GetCourseAsync(); // Fetch courses from service
+    }
+
+    private void AddCourse() // Navigate to add course page
+    {
+        NavigationManager.NavigateTo("/add-course");
+    }
+
+    private void EditCourse(int id) // Navigate to edit course page
+    {
+        NavigationManager.NavigateTo($"/edit-course/{id}");
+    }
+
+
+
+    private async Task DeleteCourse(int id)
+    {
+        Console.WriteLine($"DeleteCourse called for id: {id}"); // Menambah log
+        var confirmed = await ConfirmDelete();
+        if (confirmed)
+        {
+            try
+            {
+                Console.WriteLine($"Confirmed deletion for course {id}"); // Menambah log
+                await CourseService.DeleteCourseAsync(id); // Panggil service untuk menghapus course
+                courses = await CourseService.GetCourseAsync(); // Refresh daftar course
+                StateHasChanged(); // Memperbarui state komponen
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error deleting course: {ex.Message}"); // Menambah log error
+            }
+        }
+    }
+
+    private async Task<bool> ConfirmDelete()
+    {
+        bool confirmed = await JS.InvokeAsync<bool>("confirm", "Are you sure you want to delete this course?");
+        Console.WriteLine($"Confirmation result: {confirmed}"); // Debugging line
+        return confirmed;
+    }
+
+    private bool IsValidImageUrl(string imageUrl)
+    {
+        Uri uriResult;
+        return !string.IsNullOrEmpty(imageUrl) &&
+               Uri.TryCreate(imageUrl, UriKind.Absolute, out uriResult) &&
+               (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+    }
+
+
+}
+

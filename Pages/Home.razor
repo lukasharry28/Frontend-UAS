@@ -1,0 +1,59 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+<PageTitle>Home</PageTitle>
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">Welcome to simple Frondend UAS WEB!</h1>
+        <p class="lead">This is a simple web with a Bootstrap-powered layout.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Create Data Category</h5>
+                    <p class="card-text">Description for the first feature of your app goes here. You can explain its benefits.</p>
+                    <button class="btn btn-primary" @onclick="AddCategory"><i class="bi bi-plus-square"></i> Add Category</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Create Data Course</h5>
+                    <p class="card-text">Highlight another important feature of your app in this section.</p>
+                    <button class="btn btn-success" @onclick="AddCourse"><i class="bi bi-plus-square"></i> Add Course</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Go to Weather Page</h5>
+                    <p class="card-text">Describe a third key feature or unique aspect of your app here.</p>
+                    <a class="btn btn-secondary" @onclick="GoWeather">Go Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-info text-center mt-5" role="alert">
+        This is an example alert to grab attention!
+    </div>
+</div>
+@code
+{
+    private void AddCategory()
+    {
+        NavigationManager.NavigateTo("/add-category");
+    }
+
+    private void AddCourse()
+    {
+        NavigationManager.NavigateTo("/add-course");
+    }
+
+    private void GoWeather()
+    {
+        NavigationManager.NavigateTo("/weather");
+    }
+}

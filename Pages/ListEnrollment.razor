@@ -1,0 +1,90 @@
+﻿@page "/enrollments"
+@using BlazeUTS.Models
+@using BlazeUTS.Service
+@inject EnrollmentService EnrollmentService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+
+<PageTitle>Enrollment</PageTitle>
+
+<h3>Enrollment</h3>
+<div class="d-flex align-items-center">
+    <button class="btn btn-outline-dark" @onclick="AddEnrollment"><i class="bi bi-plus-square"></i> Add Enrollment</button>
+</div>
+
+@if (isLoading)
+{
+    <div>Loading enrollments...</div>
+}
+else if (!enrollments.Any())
+{
+    <div>No enrollments found.</div>
+}
+
+else
+{
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Enrollment Id</th>
+                <th>Instructor</th>
+                <th>Course</th>
+                <th>Enrolled at?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var rowNumber = 1;
+            }
+            @foreach (var enrolment in enrollments)
+            {
+                <tr>
+                    <td>@rowNumber</td>
+                    <td>@enrolment.EnrollmentId</td>
+                    <td>@enrolment.InstructorId</td>
+                    <td>@enrolment.CourseId</td>
+                    <td>@enrolment.EnrolledAt</td>
+                </tr>
+                rowNumber++;
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private List<Enrollment> enrollments = new List<Enrollment>();
+
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            enrollments = await EnrollmentService.GetEnrollmentAsync();
+            if (enrollments == null)
+            {
+                enrollments = new List<Enrollment>(); // Ensure it’s never null
+                Console.WriteLine("No enrollments returned.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching enrollments: {ex.Message}");
+            enrollments = new List<Enrollment>(); // Initialize empty list if there's an error
+        }
+        finally
+        {
+            isLoading = false; // Stop loading indicator
+        }
+    }
+
+
+
+    private void AddEnrollment()
+    {
+        NavigationManager.NavigateTo("/add-enrollment");
+    }
+
+}
