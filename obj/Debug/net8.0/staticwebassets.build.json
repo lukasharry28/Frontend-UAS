@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4u4KD56lhJaCk648g83NkGsdJsKUhqBSkjQQvOLpTPQ=",
+  "Hash": "tUVBBo0w0FmWi6ssyOrwEP3ZQH6nuKqIuTBR1c4uf8U=",
   "Source": "BlazeUTS",
   "BasePath": "_content/BlazeUTS",
   "Mode": "Default",
@@ -57,6 +57,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazeUTS.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.css",
+      "SourceId": "BlazeUTS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\",
+      "BasePath": "_content/BlazeUTS",
+      "RelativePath": "_main#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "941c4bzhkm",
+      "Integrity": "qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_main.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.js",
+      "SourceId": "BlazeUTS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\",
+      "BasePath": "_content/BlazeUTS",
+      "RelativePath": "_main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yyyvoanxkh",
+      "Integrity": "yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_main.js"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\app.css",
@@ -166,6 +208,170 @@
   ],
   "Endpoints": [
     {
+      "Route": "_main.941c4bzhkm.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 05:37:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "941c4bzhkm"
+        },
+        {
+          "Name": "label",
+          "Value": "_main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI="
+        }
+      ]
+    },
+    {
+      "Route": "_main.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 05:37:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI="
+        }
+      ]
+    },
+    {
+      "Route": "_main.js",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 16:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM="
+        }
+      ]
+    },
+    {
+      "Route": "_main.yyyvoanxkh.js",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 16:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyyvoanxkh"
+        },
+        {
+          "Name": "label",
+          "Value": "_main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM="
+        }
+      ]
+    },
+    {
       "Route": "app.css",
       "AssetFile": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\app.css",
       "Selectors": [],
@@ -270,7 +476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 19:46:18 GMT"
+          "Value": "Fri, 20 Dec 2024 14:05:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -307,7 +513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 19:46:18 GMT"
+          "Value": "Fri, 20 Dec 2024 14:05:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -352,7 +558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 19:46:18 GMT"
+          "Value": "Fri, 20 Dec 2024 14:05:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -397,7 +603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 19:46:18 GMT"
+          "Value": "Fri, 20 Dec 2024 14:05:44 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlazeUTS</title>
-    <base href="~/" />
+    <base href="/" />
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="BlazeUTS.styles.css" />
@@ -20,8 +20,18 @@
 </head>
 <body>
     <app>
-        <component type="typeof(App)" render-mode="ServerPrerendered" />
+        <component type="typeof(App)" render-mode="Server" />
     </app>
+    <script>
+        window.setAuthToken = (token) => {
+            localStorage.setItem('authToken', token);
+        };
+        
+        window.getAuthToken = () => {
+            return localStorage.getItem('authToken');
+        };
+    </script>
     <script src="_framework/blazor.server.js"></script>
+
 </body>
 </html>

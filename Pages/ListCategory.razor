@@ -4,25 +4,34 @@
 @inject CategoryService CategoryService
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JS
-
 <PageTitle>Category</PageTitle>
 
+<AuthorizeView>
+    <Authorized>
+
+@if (_errorMessage != null)
+{
+    <div class="alert alert-danger">
+        @_errorMessage
+        @if (_isUnauthorized)
+        {
+            <button class="btn btn-link" @onclick="RedirectToLogin">Login Again</button>
+        }
+    </div>
+}
+
+@if (categories == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    // Your existing category list UI
 <h3>Categories</h3>
 <div class="d-flex align-items-center">
     <input class="form-control me-2" type="search" aria-label="Search" @oninput="OnSearchChanged" placeholder="Search Category..." style="width: 200px;" />
     <button class="btn btn-outline-dark" @onclick="AddCategory"><i class="bi bi-plus-square"></i> Add Category</button>
 </div>
-
-@if (isLoading)
-{
-    <div>Loading categories...</div>
-}
-else if (!categories.Any())
-{
-    <div>No categories found.</div>
-}
-else
-{
     <table class="table mt-3">
         <thead>
             <tr>
@@ -56,6 +65,13 @@ else
         </tbody>
     </table>
 }
+    </Authorized>
+    <NotAuthorized>
+        <div class="alert alert-warning">
+            Please <button class="btn btn-link" @onclick="RedirectToLogin">login</button> to view categories.
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
 
 @code {
     private List<Category> categories = new List<Category>();
@@ -64,10 +80,33 @@ else
         .ToList();
     private string searchTerm = string.Empty;
     private bool isLoading = true;
+    private string _errorMessage;
+    private bool _isUnauthorized;
 
-    protected override async Task OnInitializedAsync() // Initialization method
+    protected override async Task OnInitializedAsync()
     {
-        categories = await CategoryService.GetCategoryAsync(); // Fetch category from service
+        try
+        {
+            categories = await CategoryService.GetCategoryAsync();
+            _errorMessage = null;
+            _isUnauthorized = false;
+        }
+        catch (UnauthorizedAccessException)
+        {
+            _errorMessage = "Please login to view categories.";
+            _isUnauthorized = true;
+        }
+        catch (Exception ex)
+        {
+            _errorMessage = "Error loading categories. Please try again later.";
+            _isUnauthorized = false;
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+    private void RedirectToLogin()
+    {
+        NavigationManager.NavigateTo("/login");
     }
 
     private void AddCategory()

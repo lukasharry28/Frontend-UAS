@@ -1,0 +1,143 @@
+@using Microsoft.AspNetCore.Components.Forms
+@using BlazeUTS.Service
+@using BlazeUTS.Models
+@inject NavigationManager NavigationManager
+@inject LoginService LoginService
+@inject IJSRuntime JSRuntime
+@page "/login"
+
+<PageTitle>Login</PageTitle>
+<div class="login-container">
+    <div class="right-panel">
+        <div class="login-card">
+            <h3>Login</h3>
+            @if (showNotification)
+            {
+                <div class="alert alert-@notificationType d-flex align-items-center mt-2" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Notification:">
+                        <use xlink:href="#@iconType" />
+                    </svg>
+                    <div>
+                        @notificationMessage
+                    </div>
+                </div>
+            }
+            <EditForm Model="testLogin" OnValidSubmit="HandleValidSubmit" OnInvalidSubmit="HandleInvalidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="form-group mt-2">
+                    <InputText @bind-Value="testLogin.UserName" class="form-control" placeholder="UserName" />
+                    <ValidationMessage For="() => testLogin.UserName" />
+                </div>
+                <div class="form-group mt-2">
+                    <InputText @bind-Value="testLogin.Password" class="form-control" placeholder="Password" type="password" />
+                    <ValidationMessage For="() => testLogin.Password" />
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn btn-primary btn-block" disabled="@isProcessing">
+                        @if (isProcessing)
+                        {
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            <span>Processing...</span>
+                        }
+                        else
+                        {
+                            <span>Sign In</span>
+                        }
+                    </button>
+                </div>
+                <div class="form-group">
+                    <label>Don't have an account?</label>
+                    <a href="/register">Register</a>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private UserLoginDTO testLogin = new UserLoginDTO();
+    private string notificationMessage = string.Empty;
+    private bool showNotification;
+    private string notificationType = "danger";
+    private string iconType = "exclamation-triangle-fill";
+    private bool isProcessing = false;
+    private bool initialized = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && !initialized)
+        {
+            initialized = true;
+            try
+            {
+                var token = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "authToken");
+                if (!string.IsNullOrEmpty(token))
+                {
+                    NavigationManager.NavigateTo("/", true);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error checking authentication: {ex.Message}");
+            }
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (isProcessing) return;
+        
+        try
+        {
+            isProcessing = true;
+            StateHasChanged();
+
+            var userWithToken = await LoginService.LoginAsync(new UserLoginDTO
+            {
+                UserName = testLogin.UserName,
+                Password = testLogin.Password
+            });
+
+            if (userWithToken != null && !string.IsNullOrEmpty(userWithToken.Token))
+            {
+                // Set notification first
+                notificationMessage = $"Welcome, {userWithToken.UserName}! Login successful.";
+                notificationType = "success";
+                iconType = "check-circle-fill";
+                showNotification = true;
+                StateHasChanged();
+
+                // Store token using the JS function
+                await JSRuntime.InvokeVoidAsync("setAuthToken", userWithToken.Token);
+                
+                // Set the auth header for subsequent requests
+                LoginService.SetAuthorizationHeader(userWithToken.Token);
+                
+                // Navigate after everything is set
+                NavigationManager.NavigateTo("/", true);
+            }
+        }
+        catch (Exception ex)
+        {
+            notificationMessage = $"Login Failed: {ex.Message}";
+            notificationType = "danger";
+            iconType = "exclamation-triangle-fill";
+            showNotification = true;
+        }
+        finally
+        {
+            isProcessing = false;
+            StateHasChanged();
+        }
+    }
+
+    private void HandleInvalidSubmit()
+    {
+        notificationMessage = "Please fill in all required fields!";
+        notificationType = "danger";
+        iconType = "exclamation-triangle-fill";
+        showNotification = true;
+    }
+}

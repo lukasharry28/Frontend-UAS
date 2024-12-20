@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 19:46:18 GMT"
+          "Value": "Fri, 20 Dec 2024 14:05:44 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,13 +74,177 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 19:46:18 GMT"
+          "Value": "Fri, 20 Dec 2024 14:05:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-bQRM6x/mbnjBL+fhHMntj8sMo5pJrfv+XmR7G72PyKE="
+        }
+      ]
+    },
+    {
+      "Route": "_main.941c4bzhkm.css",
+      "AssetFile": "_main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 05:37:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "941c4bzhkm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI="
+        },
+        {
+          "Name": "label",
+          "Value": "_main.css"
+        }
+      ]
+    },
+    {
+      "Route": "_main.css",
+      "AssetFile": "_main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 05:37:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qZABCR00d90hSFX0CM2dYCEb8vmE0MzvnM5+1khYYBI="
+        }
+      ]
+    },
+    {
+      "Route": "_main.js",
+      "AssetFile": "_main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 16:40:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM="
+        }
+      ]
+    },
+    {
+      "Route": "_main.yyyvoanxkh.js",
+      "AssetFile": "_main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Oct 2024 16:40:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyyvoanxkh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvLA/+KUNUkj1FeGbbAl4BMGnOCocxXbsxKMBadhSIM="
+        },
+        {
+          "Name": "label",
+          "Value": "_main.js"
         }
       ]
     },

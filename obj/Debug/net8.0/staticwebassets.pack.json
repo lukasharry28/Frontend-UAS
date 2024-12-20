@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\BlazeUTS.f1ee99dqhz.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.css",
+      "PackagePath": "staticwebassets\\_main.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\_main.js",
+      "PackagePath": "staticwebassets\\_main.js"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\lukasharry28\\Frontend-UAS\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

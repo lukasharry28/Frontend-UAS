@@ -1,9 +1,16 @@
 ﻿@using Microsoft.AspNetCore.Components.Authorization
+
 <CascadingAuthenticationState>
     <Router AppAssembly="@typeof(Program).Assembly">
         <Found Context="routeData">
-            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
-            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+            @if (isAuthorized)
+            {
+                <RouteView RouteData="routeData" DefaultLayout="@typeof(MainLayout)" />
+            }
+            else
+            {
+                <RouteView RouteData="routeData" DefaultLayout="@typeof(LoginLayout)" />
+            }
         </Found>
         <NotFound>
             <LayoutView Layout="@typeof(MainLayout)">
@@ -12,3 +19,29 @@
         </NotFound>
     </Router>
 </CascadingAuthenticationState>
+
+@code {
+    [Inject] private NavigationManager NavigationManager { get; set; }
+    [Inject] private IJSRuntime JSRuntime { get; set; }
+
+    private bool isAuthorized = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Memperbaiki pemanggilan JSRuntime.InvokeAsync untuk membaca token dari localStorage
+            var token = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+            isAuthorized = !string.IsNullOrEmpty(token);
+
+            if (!isAuthorized)
+            {
+                NavigationManager.NavigateTo("/login");
+            }
+
+            StateHasChanged(); // Memperbarui tampilan setelah status autentikasi diperiksa
+        }
+    }
+}
+

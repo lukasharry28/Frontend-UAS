@@ -1,5 +1,12 @@
 ﻿@inherits LayoutComponentBase
 
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject LoginService LoginService
+@using BlazeUTS.Service
+@using BlazeUTS.Models
+using Microsoft.JSInterop;
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -21,3 +28,29 @@
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
 </div>
+
+@code {
+    private bool isAuthorized = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Ambil token dari localStorage setelah render pertama
+            var token = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                LoginService.SetAuthorizationHeader(token);
+                isAuthorized = true;
+            }
+            else
+            {
+                isAuthorized = false;
+                NavigationManager.NavigateTo("/login");
+            }
+
+            StateHasChanged(); // Memperbarui tampilan setelah status autentikasi diperiksa
+        }
+    }
+}
